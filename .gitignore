@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Local data (don't commit personal data)
+logs/
+chroma_db/
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.key
+credentials.json
+
+# Local configs with secrets
+config/mysql.yaml

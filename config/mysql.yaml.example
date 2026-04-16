@@ -1,0 +1,22 @@
+# MySQL 数据库连接配置
+host: localhost
+port: 3306
+user: root
+password: "在这里填入你的MySQL密码"
+database: corruption_db
+charset: utf8mb4
+
+# 连接池配置
+pool:
+  min_size: 2
+  max_size: 10
+  pool_recycle: 3600
+
+# 超时配置（秒）
+connect_timeout: 10
+read_timeout: 30
+write_timeout: 30
+
+# 回退策略
+fallback:
+  enabled: true

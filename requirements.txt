@@ -1,0 +1,13 @@
+# 贪腐新闻检索助手 — 依赖清单
+# 安装：pip install -r requirements.txt
+
+streamlit>=1.28.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.0
+langchain-text-splitters>=0.3.0
+dashscope>=1.20.0
+chromadb>=0.4.0
+pyyaml>=6.0
+pymysql>=1.1.0
