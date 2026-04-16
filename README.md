@@ -115,6 +115,8 @@ agent智能体项目/
 └── chroma_db/               # 向量数据库文件
 ```
 
+![架构图](images/architecture_diagram.png)
+
 ---
 
 ## 常见问题
