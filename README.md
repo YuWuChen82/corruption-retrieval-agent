@@ -1,6 +1,7 @@
 # 贪腐记录检索助手
 
 基于 RAG + 精确数据查询双轨架构的智能对话助手，支持流式输出与思考过程可视化。
+![架构图](images/architecture_diagram.png)
 
 ![界面截图](images/interface_screenshot.png)
 
@@ -16,9 +17,6 @@
 - **数据持久化**：支持 MySQL（自动 CSV 降级）
 
 ---
-## 界面展示
-![界面展示](https://i.loli.net/2022/03/16/2y2y27y27y27y27.png)
-
 ## 安装指南
 
 ### 第一步：确认 Python 环境
@@ -115,7 +113,6 @@ agent智能体项目/
 └── chroma_db/               # 向量数据库文件
 ```
 
-![架构图](images/architecture_diagram.png)
 
 ---
 
